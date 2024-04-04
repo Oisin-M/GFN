@@ -1,6 +1,8 @@
-Stokes/dataset/matrix_large.mat
-Stokes/dataset/matrix_h3.mat
-Stokes/data/*/
+stokes/data/
+!stokes/data/*.mat
+!stokes/data/*.py
+!stokes/data/*.ipynb
+!stokes/data/*.npy
 
 __pycache__/
 .ipynb_checkpoints/
