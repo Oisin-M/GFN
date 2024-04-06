@@ -27,7 +27,7 @@ precision = torch.float64
 # --- GFN-ROM ---
 
 # Latent dimension
-latent_size = 10
+latent_size = 200
 
 # Mapper sizes
 # Mapper maps from parameters to latent dimension
@@ -46,7 +46,7 @@ act = torch.nn.Tanh
 mode = 'fixed'
 
 # Weight to give to the mapper loss compared to the autoencoder loss
-mapper_weight = 1e1
+mapper_weight = 10.0
 
 # Number of epochs
 epochs = 5000

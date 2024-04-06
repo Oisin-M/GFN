@@ -1,8 +1,12 @@
-stokes/data/
-!stokes/data/*.mat
-!stokes/data/*.py
-!stokes/data/*.ipynb
-!stokes/data/*.npy
+*/data/*
+!*/data/*.mat
+!*/data/*.py
+!*/data/*.ipynb
+!*/data/*.npy
+
+!advection/data/backends
+!advection/data/problems
+!advection/data/reduction_methods
 
 __pycache__/
 .ipynb_checkpoints/
