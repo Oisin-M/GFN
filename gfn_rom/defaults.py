@@ -43,7 +43,7 @@ ae_sizes = []
 act = torch.nn.Tanh
 
 # Use either fixed ("fixed"), adaptive ("adapt") or precomputed adaptive method ("preadapt")
-mode = 'fixed'
+mode = 'preadapt'
 
 # Weight to give to the mapper loss compared to the autoencoder loss
 mapper_weight = 10.0
