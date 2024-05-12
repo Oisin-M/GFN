@@ -8,7 +8,7 @@ from rbnics.backends.dolfin.wrapping import counterclockwise
 from rbnics.shape_parametrization.utils.symbolic import VerticesMappingIO
 
 # governs how fine mesh is (larger=finer mesh)
-mesh_density = 75 #.00000000000000000000001
+mesh_density = 75
 
 # Geometrical parameters
 t = 1.  # mu[0]

@@ -36,11 +36,11 @@ mapper_sizes = [50, 50, 50, 50]
 
 # Autoencoder sizes
 # Autoencoder maps from full data to latent representation
-# We optionally allow the addition of further layers
-ae_sizes = []
+# We allow the addition of further layers
+ae_sizes = [200]
 
 # Activation
-act = torch.nn.Tanh
+act = torch.nn.ELU
 
 # Use either fixed ("fixed"), adaptive ("adapt") or precomputed adaptive method ("preadapt")
 mode = 'preadapt'
