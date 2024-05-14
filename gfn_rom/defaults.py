@@ -26,9 +26,6 @@ precision = torch.float64
 
 # --- GFN-ROM ---
 
-# Latent dimension
-latent_size = 200
-
 # Mapper sizes
 # Mapper maps from parameters to latent dimension
 # We optionally allow the addition of further layers
@@ -40,7 +37,7 @@ mapper_sizes = [50, 50, 50, 50]
 ae_sizes = [200]
 
 # Activation
-act = torch.nn.ELU
+act = torch.nn.Torch
 
 # Use either fixed ("fixed"), adaptive ("adapt") or precomputed adaptive method ("preadapt")
 mode = 'preadapt'

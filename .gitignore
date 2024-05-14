@@ -12,3 +12,6 @@ __pycache__/
 .ipynb_checkpoints/
 gca-rom/
 test_notebooks/
+models/
+plots/
+errors/
