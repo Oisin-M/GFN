@@ -37,7 +37,7 @@ mapper_sizes = [50, 50, 50, 50]
 ae_sizes = [200]
 
 # Activation
-act = torch.nn.Torch
+act = torch.nn.Tanh
 
 # Use either fixed ("fixed"), adaptive ("adapt") or precomputed adaptive method ("preadapt")
 mode = 'preadapt'
