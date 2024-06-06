@@ -1,5 +1,5 @@
-# GFNs: Graph Feedforward Networks
-A resolution-invariant generalisation of feedforward networks for graphical data.
+# GFN: A graph feedforward network for resolution-invariant reduced operator learning in multifidelity applications
+A resolution-invariant generalisation of feedforward networks for graphical data, applied to model order reduction.
 
 ## Why GFNs?
 Many applications rely upon graphical data, which standard machine learning methods such as feedforward networks and convolutions cannot handle. GFNs present a novel approach of tackling this problem by extending existing machine learning approaches for use on graphical data. GFNs have very close links with neural operators and graph neural networks.
