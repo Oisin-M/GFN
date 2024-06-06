@@ -28,6 +28,21 @@ Key advantages of GFN-ROM:
 - Excellent generalisation performance
 - Adaptive multifidelity training
 
+## Codebase
+The code implementing the GFN-ROM model is given in
+- `gfn_rom/`
+
+All results presented in the paper are fully reproducible and we provide pre-run jupyter notebooks containing all the necessary code in
+- `graetz/`
+- `advection/`
+- `stokes/`
+
+**Requirements**:
+Running GFN-ROM requires
+- `torch, numpy, sklearn, matplotlib, tqdm, pykdtree`
+
+Additional modules are required if one wishes to rerun the data generation or GCA-ROM experiments.
+
 ## Cite this work!
 If this work is useful to you, please cite
 ```
