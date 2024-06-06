@@ -12,7 +12,7 @@ Many applications rely upon graphical data, which standard machine learning meth
 <img src="readme_images/gfn.png"/>
 </p>
 
-Key advantages of GFNs
+Key advantages of GFNs:
 - Resolution invariance
 - Equivalence to feedforward networks for single fidelity data (no deterioration in performance)
 - Provable guarantees on performance for super- and sub-resolution
@@ -21,7 +21,7 @@ Key advantages of GFNs
 ## GFN-ROM
 We show the capability of GFNs for MOR by developing the graph feedforward network reduced order model (GFN-ROM).
 
-Key advantages of GFN-ROM
+Key advantages of GFN-ROM:
 - First graph-based resolution-invariant ROM
 - Lightweight and flexible architecture
 - Computational efficiency
