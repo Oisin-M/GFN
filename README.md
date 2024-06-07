@@ -45,6 +45,13 @@ Additional modules are required if one wishes to rerun the data generation or GC
 
 ## Cite this work!
 If this work is useful to you, please cite
+
+[1] Morrison, O. M., Pichi, F. and Hesthaven, J. S. (2024) ‘GFN: A graph feedforward network for resolution-invariant reduced operator learning in multifidelity applications’. Available at: [arXiv](https://arxiv.org/abs/2406.03569)
 ```
-In preparation
+@article{Morrison2024,
+  title={{GFN}: {A} graph feedforward network for resolution-invariant reduced operator learning in multifidelity applications},
+  author={Morrison, Oisín M and Pichi, Federico and Hesthaven, Jan S},
+  journal={arXiv preprint arXiv:2406.03569},
+  year={2024}
+}
 ```
