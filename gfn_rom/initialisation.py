@@ -1,6 +1,7 @@
 import torch
 import numpy as np
 import random
+import os
 
 def set_seed(seed):
     torch.manual_seed(seed)
@@ -16,3 +17,8 @@ def set_device():
 
 def set_precision(precision):
     torch.set_default_dtype(precision)
+
+def create_directories():
+    for path in ['models', 'errors', 'plots']:
+        if not os.path.exists(path):
+           os.makedirs(path)
