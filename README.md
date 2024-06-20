@@ -28,8 +28,30 @@ Key advantages of GFN-ROM:
 - Excellent generalisation performance
 - Adaptive multifidelity training
 
+## Codebase
+The code implementing the GFN-ROM model is given in
+- `gfn_rom/`
+
+All results presented in the paper are fully reproducible and we provide pre-run jupyter notebooks containing all the necessary code in
+- `graetz/`
+- `advection/`
+- `stokes/`
+
+**Requirements**:
+Running GFN-ROM requires
+- `torch, numpy, sklearn, matplotlib, tqdm, pykdtree`
+
+Additional modules are required if one wishes to rerun the data generation or GCA-ROM experiments.
+
 ## Cite this work!
 If this work is useful to you, please cite
+
+[1] Morrison, O. M., Pichi, F. and Hesthaven, J. S. (2024) ‘GFN: A graph feedforward network for resolution-invariant reduced operator learning in multifidelity applications’. Available at: [arXiv](https://arxiv.org/abs/2406.03569)
 ```
-In preparation
+@article{Morrison2024,
+  title={{GFN}: {A} graph feedforward network for resolution-invariant reduced operator learning in multifidelity applications},
+  author={Morrison, Oisín M and Pichi, Federico and Hesthaven, Jan S},
+  journal={arXiv preprint arXiv:2406.03569},
+  year={2024}
+}
 ```
